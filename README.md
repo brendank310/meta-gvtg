@@ -9,7 +9,7 @@ To use the layer, add the following to your local.conf:
 PACKAGECONFIG_append_pn-qemu-target = " gvtg"
 PREFERRED_VERSION_xen = "4.10+git"
 PREFERRED_VERSION_qemu-target = "git"
-PREFERRED_PROVIDER_virtual/kernel = "linux-xengt"
+PREFERRED_PROVIDER_virtual/kernel = "linux-gvtg"
 ```
 
 meta-virtualization is required. Instructions for using GVTg with a build produced by this layer will be forthcoming.
